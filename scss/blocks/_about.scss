@@ -1,0 +1,73 @@
+// about-qismi //
+.about {
+   padding-top: 135px;
+   border-radius: 15px;
+   background: #E7816B;
+   padding-bottom: 135px;
+   padding-left: 95px;
+   background-image: url(../../img/AboutUs.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% + 450px);
+   background-size: 508px;
+}
+
+.about__card__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 48px;
+   color: #FFFFFF;
+}
+
+.about__card__copy {
+   width: 458px;
+   margin-top: 32px;
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 564px){
+   .about {
+      width: 375px;
+      padding-top: 400px;
+      border-radius: 0px;
+      background: #E7816B;
+      padding-bottom: 80px;
+      padding-left: 24px;
+      padding-right: 24px;
+      background-image: url(../../img/AboutUs.png);
+      background-repeat: no-repeat;
+      background-position: calc(50% + 0px)calc(50% - 198px);
+      background-size: 380px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .about__card__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 48px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+   
+   .about__card__copy {
+      width: 327px;
+      margin-top: 32px;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+   
+}

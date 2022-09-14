@@ -1,0 +1,112 @@
+// directions // 
+.directions {
+   padding-top: 128px;
+}
+
+.directions__card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.directions__card__text {
+   border-radius: 15px;
+   background: #FDF3F0;
+   margin-top: 32px;
+   padding-bottom: 32px;
+}
+
+.directions__card__text:hover{
+   background: #ecb5a9;
+   color: white;
+}
+
+.drections__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 26px;
+   text-align: center;
+   color: #E7816B;
+   margin-top: 30px;
+}
+
+.drections__title:hover{
+   color: white;
+}
+
+.drections__copy {
+   width: 286px;
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #333136;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+}
+
+.drections__copy:hover{
+   color: white;
+}
+
+@media only screen and (max-width: 564px){
+   .directions {
+      padding-top: 56px;
+   }
+   
+   .directions__card {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   
+   .directions__card__text {
+      border-radius: 15px;
+      background: #FDF3F0;
+      margin-top: 40px;
+      padding-bottom: 32px;
+      margin-left: auto;margin-right: auto;
+   }
+   
+   .directions__card__text:hover{
+      background: #ecb5a9;
+      color: white;
+   }
+   
+   .drections__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      color: #E7816B;
+      margin-top: 30px;
+   }
+   
+   .drections__title:hover{
+      color: white;
+   }
+   
+   .drections__copy {
+      width: 286px;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #333136;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 18px;
+   }
+   
+   .drections__copy:hover{
+      color: white;
+   }
+}

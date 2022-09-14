@@ -1,0 +1,129 @@
+
+
+// transition // 
+.transition{
+   display: flex;
+   justify-content: space-between;margin-top: 160px;
+}
+
+.transition__card{
+   width: 541px;
+   padding-top: 107px;
+   padding-bottom: 107px;
+   border-radius: 15px;
+   background-image: url(../../img/app-design.png);
+   background-repeat: no-repeat; 
+   color: #FFFFFF;
+   text-decoration: none;
+   text-align: center;
+}
+
+.transition__card:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.transition__text{
+   width: 541px;
+   padding-top: 107px;
+   padding-bottom: 107px;
+   border-radius: 15px;
+   background-image: url(../../img/graphic-design.jpg);
+   background-repeat: no-repeat;
+   color: #FFFFFF;
+   text-decoration: none;
+   text-align: center;
+}
+
+.transition__text:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.transition__next{
+   width: 541px;
+   padding-top: 107px;
+   padding-bottom: 107px;
+   border-radius: 15px;
+   background-image: url(../../img/web-desigin.png);
+   background-repeat: no-repeat;
+   color: #FFFFFF;
+   text-decoration: none;
+   text-align: center;
+}
+
+.transition__next:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.transition__copy{
+   margin-top: 24px;
+}
+
+@media only screen and (max-width: 564px){
+   .transition{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      flex-direction: column;
+   }
+   
+   .transition__card{
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      border-radius: 15px;
+      background-image: url(../../img/app-plansheti.jpg);
+      background-repeat: no-repeat; 
+      color: #FFFFFF;
+      text-decoration: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+   }
+   
+   .transition__card:hover{
+      box-shadow: 10px 10px 10px rgb(218, 9, 9);
+   }
+   
+   .transition__text{
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      border-radius: 15px;
+      background-image: url(../../img/graphic-pilansheti.jpg);
+      background-repeat: no-repeat;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+   }
+   
+   .transition__text:hover{
+      box-shadow: 10px 10px 10px rgb(218, 9, 9);
+   }
+   
+   .transition__next{
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      border-radius: 15px;
+      background-image: url(../../img/wep-planshet.png);
+      background-repeat: no-repeat;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+   }
+   
+   .transition__next:hover{
+      box-shadow: 10px 10px 10px rgb(218, 9, 9);
+   }
+   
+   .transition__copy{
+      margin-top: 24px;
+   }
+}

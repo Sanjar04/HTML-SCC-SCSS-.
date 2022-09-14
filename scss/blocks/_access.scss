@@ -1,0 +1,126 @@
+// access-qismi //
+.access {
+   padding-top: 72px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 65px;
+   background: #E7816B;
+   display: flex;
+   border-radius: 18px;
+   justify-content: space-between;
+   transform: translateY(80px);
+}
+
+.access__btn {
+   width: 152px;
+   height: 56px;
+   border: none;
+   border-radius: 8px;
+   margin-top: 40px;
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 22px;
+   color: #333136;
+}
+
+.access__btn:hover {
+   background: #FFAD9B;
+   color: white;
+}
+
+.access__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 40px;
+   width: 288px;
+   color: #FFFFFF;
+}
+
+.access__copy {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   width: 459px;
+   color: #FFFFFF;
+   margin-top: 25px;
+}
+
+.access{
+   background-image: url(../../img/bg-tepaga.svg),url(../../img/bg-pastga.svg);
+   background-repeat: no-repeat;
+   background-position: calc(50% + 405px)calc(50% - 80px),calc(50% + 260px )calc(50% + 70px );
+}
+
+@media only screen and (max-width: 564px){
+   .access {
+      padding-top: 64px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 64px;
+      background: #E7816B;
+      display: flex;
+      flex-direction: column;
+      width: 327px;
+      border-radius: 18px;
+      justify-content: space-between;
+      transform: translateY(200px);
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .access__btn {
+      width: 152px;
+      height: 56px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 40px;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #333136;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .access__btn:hover {
+      background: #FFAD9B;
+      color: white;
+   }
+   
+   .access__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 40px;
+      width: 279px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+   
+   .access__copy {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      width: 279px;
+      color: #FFFFFF;
+      margin-top: 25px;
+      text-align: center;
+   }
+   
+   .access{
+      background-image: url(../../img/bg-tepaga.svg),url(../../img/bg-pastga.svg);
+      background-repeat: no-repeat;
+      background-position: calc(50% + 405px)calc(50% - 80px),calc(50% + 260px )calc(50% + 70px );
+   }
+}

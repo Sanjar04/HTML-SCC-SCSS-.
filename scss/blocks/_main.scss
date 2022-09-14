@@ -1,0 +1,14 @@
+
+// main-bg-img //
+main{
+   background-image: url(../../img/main-bg-img-wone.svg),url(../../img/bg-img-two.svg);
+   background-repeat: no-repeat;
+   background-position: calc(50% - 240px)calc(50% - 450px),calc(50% + 240px)calc(50% + 850px);
+}
+
+
+@media only screen and (max-width: 988px){
+   main{
+      background-image: none;
+   }
+}

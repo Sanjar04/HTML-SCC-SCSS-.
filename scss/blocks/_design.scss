@@ -1,0 +1,173 @@
+// design //
+.design {
+   display: flex;
+   padding-top: 160px;
+   justify-content: space-between;
+}
+
+.design__text {
+   width: 541px;
+   padding-top: 273px;
+   padding-bottom: 273px;
+   background-image: url(../../img/web-desigin.png);
+}
+
+.design__text__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   letter-spacing: 2px;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+.design__text__copy {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 22px;
+   text-align: center;
+   margin-top: 24px;
+   color: #FFFFFF;
+}
+
+.design__card__box {
+   width: 541px;
+   padding-top: 107px;
+   padding-bottom: 107px;
+   background-image: url(../../img/app-design.png);
+}
+
+.design__card__next {
+   width: 541px;
+   padding-top: 107px;
+   padding-bottom: 107px;
+   background-image: url(../../img/graphic-design.jpg);
+   margin-top: 24px;
+}
+
+.design__card__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.design__card__copy {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 22px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 24px;
+}
+
+.design__text:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.design__card__box:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.design__card__next:hover{
+   box-shadow: 10px 10px 10px rgb(218, 9, 9);
+}
+
+.design__link{
+   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 988px){
+   .design {
+      display: flex;
+      padding-top: 120px;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   
+   .design__text {
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      background-image: url(../../img/wep-planshet.png);
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .design__text__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+   
+   .design__text__copy {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      margin-top: 24px;
+      color: #FFFFFF;
+   }
+   
+   .design__card__box {
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      background-image: url(../../img/app-plansheti.jpg);
+      margin-top: 24px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .design__card__next {
+      width: 689px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      background-image: url(../../img/graphic-pilansheti.jpg);
+      margin-top: 24px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .design__card{
+      text-align: center;
+   }
+   
+   .design__card__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      color: #FFFFFF;
+   }
+   
+   .design__card__copy {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 24px;
+   }
+}

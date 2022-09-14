@@ -1,0 +1,76 @@
+// talent // 
+.talent {
+   background: #FDF3F0;
+   border-radius: 15px;
+   margin-top: 160px;
+   padding-top: 154px;
+   padding-bottom: 154px;
+   padding-right: 100px;
+   background-image: url(../../img/talentS.jpg);
+   background-repeat: no-repeat;
+}
+
+.talent__title {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+   color: #E7816B;
+   text-align: end;
+   margin-right: 165px;
+}
+
+.talent__copy {
+   font-family: 'Jost';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   width: 445px;
+   color: #333136;
+   margin-left: auto;
+   margin-top: 24px;
+}
+
+@media only screen and (max-width: 564px){
+   .talent {
+      width: 375px;
+      background: #FDF3F0;
+      margin-top: 0px;
+      padding-top: 400px;
+      padding-bottom: 80px;
+      padding-right: 0px;
+      background-image: url(../../img/talentS.jpg);
+      background-position: calc(50%)calc(50% - 380px);
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .talent__title {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 36px;
+      color: #E7816B;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .talent__copy {
+      width: 327px;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: #333136;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 24px;
+   }
+}
